@@ -138,13 +138,18 @@ header{
 /*slider end*/
 
 /*service start*/
-.service{}
+.service{
+	padding: 40px 0;
+}
 .c_title{
 	margin-bottom: 45px;
 }
-.p_subtitle{
-	line-height: 28px;
+.welcome_text{
 	margin-bottom: 125px;
+}
+.p_subtitle{
+	line-height: 26px;
+	
 }
 .t_arrow{
 	width: 2px;
@@ -152,7 +157,12 @@ header{
 	background-color: black;
 	display: inline-block;
 }
-.c_h1{}
+.c_h1{
+	font-family: Lato-Regular;
+	font-weight: 400;
+	font-size: 30px;
+	color: #333333;
+}
 .s_service{
 	text-align: center;
 	padding: 70px 25px 40px;
@@ -192,3 +202,183 @@ header{
 	margin-bottom: 20px;
 }
 /*service end*/
+
+/*about start*/
+.about{
+	padding: 40px 0 80px;
+}
+/*about end*/
+
+/*work start*/
+.work{
+	padding:0 0 80px;
+	background-color: #f8f8f8;
+}
+.work_text{
+	margin-bottom: 60px;
+}
+.work_button{
+	margin-bottom: 20px;
+	background-color: transparent;
+}
+.work_button ul{
+	border: none !important;
+}
+.work_button ul li button{
+	color: #8e8e8e;
+	border: 1px solid transparent !important;
+	border-radius: 1px !important;
+}
+
+/*work end*/
+
+/*choice start*/
+.choice{
+	padding: 0 0 80px;
+}
+.choice_text{
+	margin-bottom: 60px;
+}
+.s_choice{
+	border-bottom: 1px solid #8e8e8e;
+}
+.s_choice:hover {
+	border-bottom: 1px solid #333333;
+}
+.s_choice h4{
+	font-family: Lato-Bold;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.s_c_title{}
+.s_c_title span{
+	padding-right: 15px;
+}
+.s_choice span i{
+	font-size: 48px;
+}
+.s_choice p{
+	margin: 25px 0;
+}
+/*choice end*/
+
+/*team start*/
+.team{
+	padding: 0 0 80px;
+	background-image: url(../images/team_bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.team_text{
+	margin-bottom: 60px;
+}
+.team_img{
+	position: relative;
+	
+}
+.team_img img{
+	width: 100%;
+}
+.team_img_overlay{
+	position: absolute;
+	left: 0;
+	background: white;
+	opacity: 0;
+	transition: 0.3s;
+}
+.s_team:hover .team_img_overlay{
+	opacity: 1;
+}
+.team_icon{
+	padding: 6px 10px;
+	background: white;
+	border: 1px solid transparent;
+	transition: 0.3s;
+	text-align: center;
+}
+.team_icon:hover{
+	
+	border-right: 1px solid #333333;
+}
+.team_icon:hover a i{
+	color: #333333;
+}
+.team_title{
+	background-color: white;
+	padding: 8px 15px;
+}
+.team_title h4{
+	font-family: Lato-Bold;
+	font-size: 18px;
+	font-weight: 700;
+	color: #333333;
+}
+.team_title p{
+	margin-bottom: 5px;
+}
+
+.team_icon a{
+	text-decoration: none;
+}
+.team_icon a i{
+	font-size: 24px;
+	color: #8e8e8e;
+}
+/*team end*/
+
+/*pricing start*/
+.pricing{
+	padding: 0 0 80px;
+
+}
+.pricing_card{
+	padding: 40px 0 10px;
+}
+.pricing_card h1{
+	color: #333333;
+}
+.pricing_card h1 small{
+	font-size: 18px;
+}
+.pricing_text{
+	margin-bottom: 60px;
+}
+.pricing_header{
+	margin-top: -71px;
+	margin-bottom: 30px;
+}
+.pricing_card ul li{
+	line-height: 35px;
+}
+.pricing_header h4{
+	font-family: Lato-Bold;
+	font-size: 18px;
+	color: #333333;
+	background: white;
+	display: inline-block;
+	padding: 5px;
+	text-transform: uppercase;
+}
+/*pricing end*/
+
+/*testimonial start*/
+.testimonial_buttons{
+	height: 50%;
+	background: bisque;
+	position: relative;
+}
+.testimonial_buttons button span{
+	transform: rotate(90deg);
+}
+.t_button_prev, .t_button_next{
+	color: #8e8e8e;
+	width: 100%;
+}
+.t_button_prev:hover{
+	color: #333333;
+}
+.t_button_next:hover{
+	color: #333333;
+}
+/*testimonial end*/
